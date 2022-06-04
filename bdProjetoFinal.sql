@@ -10,9 +10,7 @@ create table livro (
     primary key (id)
     );
     
-    select * from livro;
     
-    truncate tb_livro;
     
 create table perfil(
 	idperfil int primary key,
@@ -32,9 +30,9 @@ insert into perfil values
 (2,'Funcionario');
 
 insert into usuario values
-(default,'Marcela','123',1);
+(default,user1,123,1);
 
-select * from usuario;
+
 
 create table funcionario(
 	cpf varchar(11) not null primary key,
